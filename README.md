@@ -47,6 +47,14 @@ Transcendence-M33 is a translation tool designed to convert Intel 8080 assembly 
    - Allow for easy integration of new translation rules, optimizations, and target architectures.
    - Support multiple input and output formats to accommodate diverse usage scenarios.
 
+## Log
+- Initial commit of Register / Instruction mapping.
+   - Instruction_Mapping.md
+- Initial commit of Register Pairs / Instruction mapping.
+   - Instruction_Mapping_Pairs.md
+- Initial commit of Flags -> APSR mapping from Register Pairs / Instruction mapping.
+   - Flags_Mapping.md
+
 ## Motivation
 Transcendence-M33 addresses the challenge of translating code between architectures with differing instruction sets and design philosophies. By enabling the conversion of legacy Intel 8080 and PL/M code to Arm M33 assembly, it facilitates the utilization of modern hardware while preserving compatibility with vintage systems.
 
